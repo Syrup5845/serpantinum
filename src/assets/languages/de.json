@@ -81,10 +81,10 @@
       "position": {
         "title": "Popup-Position",
         "desc": "Position für Benachrichtigungs-Popups auf dem Bildschirm festlegen",
-        "top_right": "Oben Rechts",
-        "top_left": "Oben Links",
-        "bottom_right": "Unten Rechts",
-        "bottom_left": "Unten Links",
+        "top_right": "Oben rechts",
+        "top_left": "Oben links",
+        "bottom_right": "Unten rechts",
+        "bottom_left": "Unten links",
         "top_center": "Oben zentriert",
         "bottom_center": "Unten zentriert",
         "select_on_screen": "Auf Bildschirm auswählen...",
@@ -247,7 +247,7 @@
       },
       "schedule": {
         "title": "Automatischer Zeitplan",
-        "desc": "Farbtemperatur automatisch an Sonnenauf- und Untergang anpassen"
+        "desc": "Farbtemperatur automatisch an Sonnenauf- und -untergang anpassen"
       },
       "temperature": {
         "title": "Farbtemperatur",
@@ -355,7 +355,7 @@
       },
       "guide_button": {
         "title": "Anleitungs-Button",
-        "desc": "Button zum öffnen der Anleitung in der Oberen Leiste anzeigen"
+        "desc": "Button zum Öffnen der Anleitung in der beren Leiste anzeigen"
       },
       "autohide": {
         "title": "Automatisch ausblenden",
@@ -534,7 +534,7 @@
       "desc": "Verwalten sie Programme, Binärdateien und Skripte, die beim Sitzungsstart automatisch ausgeführt werden",
       "master_switch": {
         "title": "Autostart aktivieren",
-        "desc": "Konfigurierte Autostart-Anwendungsliste bei der Anmeldung Global ausführen"
+        "desc": "Konfigurierte Autostart-Anwendungsliste bei der Anmeldung global ausführen"
       },
       "add_button": "Anwendung hinzufügen",
       "empty_title": "Keine Autostart-Anwendungen",
@@ -561,7 +561,7 @@
       "condition_battery_only": "Nur Akkubetrieb",
       "condition_multi_monitor": "Nur bei Multi-Monitor",
       "restart_crash_label": "Neustart bei Absturz",
-      "restart_crash_desc": "Dienst bei Absturz automatisch Neustarten",
+      "restart_crash_desc": "Dienst bei Absturz automatisch neu starten",
       "status_running": "Läuft",
       "status_success": "Erfolgreich",
       "status_failed": "Fehlgeschlagen",
@@ -593,11 +593,11 @@
         "select_on_screen": "Auf Bildschirm auswählen...",
         "close_selector": "Auswahl schließen",
         "bottom_center": "Unten Mitte",
-        "bottom_left": "Unten Links",
-        "bottom_right": "Unten Rechts",
-        "top_center": "Oben Mitte",
-        "top_left": "Oben Links",
-        "top_right": "Oben Rechts"
+        "bottom_left": "Unten links",
+        "bottom_right": "Unten rechts",
+        "top_center": "Oben mitte",
+        "top_left": "Oben links",
+        "top_right": "Oben rechts"
       },
       "orientation": {
         "horizontal": "Horizontal",
@@ -1157,20 +1157,20 @@
   },
   "cli": {
     "usage": "Verwendung: serpantinum [befehl] [optionen...]",
-    "description": "Eine Desktop-Shell für wayland-compositor.",
+    "description": "Eine Desktop-Shell für Wayland-Compositor.",
     "commands": "Befehle:",
     "script_commands": "Skript-Befehle:",
-    "launch_desc": "Eigenständige komponenten starten (start, widgeteditor)",
+    "launch_desc": "Eigenständige Komponenten starten (start, widgetredactor)",
     "msg_desc": "Befehle oder Arbeitsflächenwechsel an den UI-Manager senden",
     "ipc_desc": "IPC-aufrufe direkt an die Shell weiterleiten",
-    "kill_desc": "Laufenden daemon sauber beenden",
+    "kill_desc": "Laufenden Daemon sauber beenden",
     "options": "Optionen:",
     "verbose_desc": "Ausführliche Protokollausgabe aktivieren",
     "version_desc": "Versionsinformationen anzeigen und beenden",
     "help_desc": "Diese Hilfemeldung anzeigen und beenden",
     "examples": "Beispiele:",
-    "daemon_stopped": "Serpantinum-daemon beendet.",
-    "starting_daemon": "Daemon läuft nicht. serpantinumd wird im Hintergrund gestartet...",
+    "daemon_stopped": "Serpantinum-Daemon beendet.",
+    "starting_daemon": "Daemon läuft nicht. Serpantinumd wird im Hintergrund gestartet...",
     "error_missing_qml": "Fehler: Fehlendes Startziel.",
     "launch_usage": "Verwendung: serpantinum launch <start|widgetredactor> [argumente...]",
     "error_qml_not_found": "Fehler: {NAME}.qml in {DIR} konnte nicht aufgelöst werden",
@@ -1198,7 +1198,7 @@
       "description": "IPC-aufruf direkt an die laufende Quickshell-Instanz senden."
     },
     "scripts": {
-      "exit": "Grafische Sitzung beenden und compositor verlassen",
+      "exit": "Grafische Sitzung beenden und Compositor verlassen",
       "lock": "Sperrbildschirm aktivieren",
       "volume": "Standard-Audio-Lautstärke und Stummschaltung steuern",
       "reload": "Quickshell-Desktop-Elemente neu laden",
@@ -1215,22 +1215,22 @@
   },
   "daemon": {
     "already_running": "Daemon läuft bereits. Beenden...",
-    "shutting_down": "Serpantinum-daemon wird heruntergefahren...",
-    "launching": "Serpantinum-daemon wird gestartet...",
+    "shutting_down": "Serpantinum-Daemon wird heruntergefahren...",
+    "launching": "Serpantinum-Daemon wird gestartet...",
     "cli": {
       "usage": "Verwendung: serpantinumd <befehl> [optionen...]",
-      "description": "Hintergrund-daemon für die serpantinum desktop-shell.",
+      "description": "Hintergrund-Daemon für die serpantinum desktop-shell.",
       "commands": "Befehle:",
       "cmd_start": "Daemon-dienst starten und Hintergrundprozesse ausführen",
-      "cmd_stop": "Laufenden daemon-dienst stoppen",
-      "cmd_status": "Status des daemon-dienstes prüfen",
+      "cmd_stop": "Laufenden Daemon-Dienst stoppen",
+      "cmd_status": "Status des Daemon-Dienstes prüfen",
       "options": "Optionen:",
       "opt_verbose": "Ausführliche Protokollausgabe aktivieren",
       "opt_version": "Versionsinformationen anzeigen und beenden",
       "opt_help": "Diese Hilfemeldung anzeigen und beenden",
-      "stopped": "Serpantinum-daemon beendet.",
-      "status_running": "Serpantinum-daemon läuft (PID: {PID}).",
-      "status_stopped": "Serpantinum-daemon läuft nicht.",
+      "stopped": "Serpantinum-Daemon beendet.",
+      "status_running": "Serpantinum-Daemon läuft (PID: {PID}).",
+      "status_stopped": "Serpantinum-Daemon läuft nicht.",
       "unknown_arg": "Unbekanntes Argument: {ARG}"
     }
   },
@@ -1241,15 +1241,15 @@
       "error_empty": "Authentifizierung fehlgeschlagen: Zugangscode darf nicht leer sein.",
       "error_default": "Authentifizierung fehlgeschlagen: Ungültiger oder abgelaufener Zugangscode.",
       "error_failed": "Authentifizierung fehlgeschlagen.",
-      "access_granted": "Zugriff gewährt. ({active}/{max} Benutzer haben diesen code aktiviert)"
+      "access_granted": "Zugriff gewährt. ({active}/{max} Benutzer haben diesen Code aktiviert)"
     },
     "os": {
       "error_root": "Fehler: Dieses Skript nicht direkt als root/sudo ausführen. Als normaler Benutzer starten.",
-      "error_unsupported": "Nicht unterstütztes Betriebssystem ({os}). Serpantinum unterstützt ausschließlich Arch linux und derivate.",
+      "error_unsupported": "Nicht unterstütztes Betriebssystem ({os}). Serpantinum unterstützt ausschließlich Arch linux und Derivate.",
       "error_not_found": "Betriebssystem konnte nicht erkannt werden. /etc/os-release nicht gefunden.",
       "unknown_cpu": "Unbekannte CPU",
       "unknown_gpu": "Unbekannt / virtuelle maschine",
-      "default_os": "Arch linux"
+      "default_os": "Arch Linux"
     },
     "ui": {
       "user": "Benutzer:",
@@ -1273,8 +1273,8 @@
       "not_installed": " (nicht installiert)",
       "done": "Fertig",
       "compositors_prompt": " Compositor-setup > ",
-      "compositors_header": " Unterstützte Compositor umschalten, dann Fertig wählen ",
-      "sddm_title": "=== Display-manager-setup (SDDM) ===",
+      "compositors_header": " Unterstützte Compositor umschalten, dann fertig wählen ",
+      "sddm_title": "=== Display-Manager-Setup (SDDM) ===",
       "sddm_detected_active": "Aktiver/aktivierter Display-Manager erkannt: {dm}",
       "sddm_detected_none": "Aktiver/aktivierter Display-Manager erkannt: Keiner",
       "sddm_opt_install": "SDDM installieren und konfigurieren (material you design)",
@@ -1287,7 +1287,7 @@
       "target_compositor_req": "Ziel-Compositor ({label}) [erforderlich]",
       "target_compositor_label": "Ziel-Compositor ({comps})",
       "unsupported_compositor": "Nicht unterstützter Compositor",
-      "menu_overview": "Paketinstallations-übersicht ({count} kernpakete)",
+      "menu_overview": "Paketinstallations-Übersicht ({count} Kernpakete)",
       "menu_sddm": "SDDM-login-manager",
       "menu_wallpapers": "Hintergrundbild-Paket",
       "menu_telemetry": "Anonyme Telemetrie",
@@ -1318,7 +1318,7 @@
     "deploy": {
       "configuring_sddm": "SDDM-Display-Manager wird konfiguriert...",
       "disabling_dm": "-> Konfliktverursachender Display-Manager wird deaktiviert: {dm}",
-      "sddm_success": "-> SDDM material you design installiert und dienst Aktiviert [ OK ]"
+      "sddm_success": "-> SDDM Material-You-Design installiert und Dienst aktiviert [ OK ]"
     }
   },
   "translator": {
@@ -1333,8 +1333,8 @@
     "empty_prompt": "Die Übersetzung wird hier sofort angezeigt...",
     "recent": "Zuletzt verwendet:",
     "failed": "Keine Übersetzung verfügbar",
-    "quick_settings": "Schnelle ersetzung",
-    "replace_settings_title": "Schnelle Auswahl-ersetzung",
+    "quick_settings": "Schnelle Ersetzung",
+    "replace_settings_title": "Schnelle Auswahl-Ersetzung",
     "replace_settings_desc": "Übersetzt markierten Text und ersetzt ihn direkt",
     "auto_paste": "Übersetzten Text automatisch einfügen",
     "auto_paste_sub": "Wenn deaktiviert — nur in die Zwischenablage kopiert",
