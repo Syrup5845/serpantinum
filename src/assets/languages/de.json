@@ -11,11 +11,11 @@
         "graphics": "Grafikkarte",
         "memory": "Arbeitsspeicher",
         "disk_capacity": "Speicherplatz",
-        "integrated_graphics": "Integrierte grafik"
+        "integrated_graphics": "Integrierte Grafik"
       },
       "system": {
         "os_name": "Betriebssystem",
-        "kernel_version": "Kernel-version",
+        "kernel_version": "Kernel-Version",
         "desktop": "Desktop",
         "shell": "Shell",
         "uptime": "Betriebszeit",
@@ -28,7 +28,7 @@
       "general": "Allgemein",
       "display": "Bildschirm",
       "bar": "Leiste",
-      "launcher": "Starter",
+      "launcher": "Launcher",
       "theme": "Design",
       "notifications": "Benachrichtigungen",
       "idle": "Inaktivität",
@@ -48,7 +48,7 @@
     "launcher": {
       "position": {
         "title": "Bildschirmposition",
-        "desc": "Bildschirmkante auswählen, an die der starter andockt",
+        "desc": "Bildschirmkante auswählen, an die der Launcher andockt",
         "top": "Oben",
         "bottom": "Unten",
         "left": "Links",
@@ -56,35 +56,35 @@
         "center": "Mitte"
       },
       "width": {
-        "title": "Starter-breite",
-        "desc": "Gesamtbreite des starter-fensters in pixeln"
+        "title": "Launcher-Breite",
+        "desc": "Gesamtbreite des Launcher-Fensters in Pixeln"
       },
       "items": {
-        "title": "Sichtbare elemente",
-        "desc": "Anzahl gleichzeitig angezeigter suchergebnisse"
+        "title": "Sichtbare Elemente",
+        "desc": "Anzahl gleichzeitig angezeigter Suchergebnisse"
       },
       "terminal": {
-        "title": "Terminal-befehl",
-        "desc": "Befehlspräfix für > ausführungen (z. B. kitty -e, alacritty -e, foot -e)"
+        "title": "Terminal-Befehl",
+        "desc": "Befehlspräfix für > Ausführungen (z. B. kitty -e, alacritty -e, foot -e)"
       },
       "smart_ranking": {
-        "title": "Intelligente sortierung von elementen im launcher",
-        "desc": "Apps basierend auf ihrer nutzungshäufigkeit und der darin verbrachten zeit sortieren"
+        "title": "Intelligente Sortierung von Elementen im Launcher",
+        "desc": "Apps basierend auf ihrer Nutzungshäufigkeit und der darin verbrachten Zeit sortieren"
       },
-      "test": "Starter öffnen"
+      "test": "Launcher öffnen"
     },
     "notifications": {
       "dnd": {
         "title": "Nicht stören",
-        "desc": "Popup-benachrichtigungen stummschalten (außer kritische warnungen)"
+        "desc": "Popup-Benachrichtigungen stummschalten (außer kritische Warnungen)"
       },
       "position": {
-        "title": "Popup-position",
-        "desc": "Position für benachrichtigungs-popups auf dem bildschirm festlegen",
-        "top_right": "Oben rechts",
-        "top_left": "Oben links",
-        "bottom_right": "Unten rechts",
-        "bottom_left": "Unten links",
+        "title": "Popup-Position",
+        "desc": "Position für Benachrichtigungs-Popups auf dem Bildschirm festlegen",
+        "top_right": "Oben Rechts",
+        "top_left": "Oben Links",
+        "bottom_right": "Unten Rechts",
+        "bottom_left": "Unten Links",
         "top_center": "Oben zentriert",
         "bottom_center": "Unten zentriert",
         "select_on_screen": "Auf Bildschirm auswählen...",
@@ -92,14 +92,14 @@
       },
       "sound": {
         "title": "Benachrichtigungston",
-        "desc": "Tonsignal bei eingehender benachrichtigung abspielen"
+        "desc": "Tonsignal bei eingehender Benachrichtigung abspielen"
       },
       "sound_file": {
         "title": "Soundeffekt",
-        "desc": "Ton für eingehende benachrichtigungen auswählen"
+        "desc": "Ton für eingehende Benachrichtigungen auswählen"
       },
       "empty_graphic": {
-        "title": "Animation für leere benachrichtigungen",
+        "title": "Animation für leere Benachrichtigungen",
         "desc": "Zeigt die schlafende katze im benachrichtigungszentrum an, wenn keine vorhanden sind"
       },
       "test": "Benachrichtigung testen",
