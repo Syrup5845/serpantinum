@@ -149,7 +149,7 @@
       },
       "dim": {
         "title": "Bildschirm abdunkeln",
-        "desc": "Bildschirmhelligkeit vor dem sperren reduzieren"
+        "desc": "Bildschirmhelligkeit vor dem Sperren reduzieren"
       },
       "dpms": {
         "title": "Bildschirm aus (DPMS)",
@@ -164,7 +164,7 @@
         "desc": "System in den Bereitschaftsmodus versetzen"
       },
       "hooks": {
-        "title": "Hooks (shell-befehle)"
+        "title": "Hooks (Shell-Befehle)"
       },
       "custom_action_desc": "Benutzerdefinierte Timeout-Aktion und Befehl"
     },
@@ -233,7 +233,7 @@
       },
       "screenshot_on_release": {
         "title": "Bereich beim Loslassen der Maus erfassen",
-        "desc": "Erstellt den Screenshot sofort nach dem ziehen, ohne auf den Auslöser zu klicken"
+        "desc": "Erstellt den Screenshot sofort nach dem Ziehen, ohne auf den Auslöser zu klicken"
       }
     },
     "display": {
@@ -243,7 +243,7 @@
       },
       "enable": {
         "title": "Diesen Monitor aktivieren",
-        "desc": "Durch deaktivieren wird dieser Monitor abgeschaltet"
+        "desc": "Durch Deaktivieren wird dieser Monitor abgeschaltet"
       },
       "schedule": {
         "title": "Automatischer Zeitplan",
@@ -327,7 +327,7 @@
       },
       "workspaces": {
         "title": "Anzahl anzuzeigender Arbeitsflächen auswählen",
-        "disc": "Hinweis: Dies beeinflusst nicht die tatsächliche Anzahl der Arbeitsflächen im compositor",
+        "disc": "Hinweis: Dies beeinflusst nicht die tatsächliche Anzahl der Arbeitsflächen im Compositor",
         "desc": "Anzahl der anzuzeigenden Arbeitsflächen",
         "hide_empty": {
           "title": "Leere Arbeitsbereiche ausblenden",
@@ -351,11 +351,11 @@
       },
       "time": {
         "title": "Zeitformat",
-        "desc": "Format-string (z. B. HH:mm:ss oder hh:mm AP)"
+        "desc": "Format-String (z. B. HH:mm:ss oder hh:mm AP)"
       },
       "guide_button": {
         "title": "Anleitungs-Button",
-        "desc": "Button zum Öffnen der Anleitung in der beren Leiste anzeigen"
+        "desc": "Button zum Öffnen der Anleitung in der oberen Leiste anzeigen"
       },
       "autohide": {
         "title": "Automatisch ausblenden",
@@ -531,18 +531,18 @@
     "update_available": "Update verfügbar",
     "autostart": {
       "title": "Autostart",
-      "desc": "Verwalten sie Programme, Binärdateien und Skripte, die beim Sitzungsstart automatisch ausgeführt werden",
+      "desc": "Verwalten Sie Programme, Binärdateien und Skripte, die beim Sitzungsstart automatisch ausgeführt werden",
       "master_switch": {
         "title": "Autostart aktivieren",
         "desc": "Konfigurierte Autostart-Anwendungsliste bei der Anmeldung global ausführen"
       },
       "add_button": "Anwendung hinzufügen",
       "empty_title": "Keine Autostart-Anwendungen",
-      "empty_desc": "Klicken sie auf 'Anwendung hinzufügen', um Befehle, Binärdateien, Verzögerungen und Wiederholungen festzulegen.",
+      "empty_desc": "Klicken Sie auf 'Anwendung hinzufügen', um Befehle, Binärdateien, Verzögerungen und Wiederholungen festzulegen.",
       "name_label": "Name",
       "name_placeholder": "z. B. Discord, EasyEffects, Skript",
       "exec_label": "Ausführungsbefehl",
-      "exec_placeholder": "Binärpfad oder Name mit flags (z. B. discord --start-minimized)",
+      "exec_placeholder": "Binärpfad oder Name mit Flags (z. B. discord --start-minimized)",
       "browse_file": "Datei durchsuchen",
       "delay_label": "Startverzögerung",
       "delay_desc": "Wartezeit in Sekunden vor dem Start",
@@ -595,7 +595,7 @@
         "bottom_center": "Unten Mitte",
         "bottom_left": "Unten links",
         "bottom_right": "Unten rechts",
-        "top_center": "Oben mitte",
+        "top_center": "Oben Mitte",
         "top_left": "Oben links",
         "top_right": "Oben rechts"
       },
@@ -617,8 +617,8 @@
         "desc": "Schwebendes Anwendungs-Dock aktivieren"
       },
       "position": {
-        "title": "Dock-position",
-        "desc": "Bildschirmkante zum verankern des Docks auswählen",
+        "title": "Dock-Position",
+        "desc": "Bildschirmkante zum Verankern des Docks auswählen",
         "bottom": "Unten",
         "top": "Oben",
         "left": "Links",
@@ -634,11 +634,11 @@
       },
       "autohide": {
         "title": "Automatisch ausblenden",
-        "desc": "Dock ausblenden wenn der Zeiger den Bildschirmrand verlässt"
+        "desc": "Dock ausblenden, wenn der Zeiger den Bildschirmrand verlässt"
       },
       "timeout": {
-        "title": "Verzögerung beim automatischen ausblenden",
-        "desc": "Dauer vor dem ausblenden nachdem der Zeiger den Bereich verlässt"
+        "title": "Verzögerung beim automatischen Ausblenden",
+        "desc": "Dauer vor dem ausblenden, nachdem der Zeiger den Bereich verlässt"
       },
       "floating": {
         "title": "Schwebendes Dock",
@@ -788,7 +788,7 @@
     "unknown": "Unbekannt"
   },
   "music": {
-    "nothing_playing": "Keine wiedergabe",
+    "nothing_playing": "Keine Wiedergabe",
     "loading": "Laden...",
     "by_artist": "Von {artist}",
     "unknown_artist": "Unbekannter Interpret",
@@ -881,18 +881,18 @@
       "pomodoro": {
         "phases": {
           "focus": "Fokus",
-          "short_break": "Kurze pause",
-          "long_break": "Lange pause"
+          "short_break": "Kurze Pause",
+          "long_break": "Lange Pause"
         },
         "settings": {
           "work": "Arbeit (min.)",
-          "short_break": "Kurze pause (min.)",
-          "long_break": "Lange pause (min.)",
+          "short_break": "Kurze Pause (min.)",
+          "long_break": "Lange Pause (min.)",
           "sessions": "Sitzungen"
         }
       },
       "notification": {
-        "app_name": "Quickshell-timer",
+        "app_name": "Quickshell-Timer",
         "timer_finished_title": "Timer abgelaufen",
         "timer_finished_body": "Dein Timer für {time} ist abgelaufen.",
         "focus_complete_title": "Fokus beendet",
@@ -907,10 +907,10 @@
   },
   "screenshot": {
     "video_mode": "Auf „aufnehmen“ klicken (Bereichsauswahl übernimmt das Portal)",
-    "select_region": "Bereich zum aufnehmen auswählen",
+    "select_region": "Bereich zum Aufnehmen auswählen",
     "no_microphones": "Keine Mikrofone (PulseAudio installieren)",
     "qr_timeout": "Scan abgelaufen oder fehlgeschlagen.",
-    "qr_not_found": "Kein QR-code gefunden.",
+    "qr_not_found": "Kein QR-Code gefunden.",
     "notifications": {
       "screenshot_app_name": "Screenshot",
       "recorder_app_name": "Bildschirmaufnahme",
@@ -923,7 +923,7 @@
       "recording_error_title": "Fehler",
       "recording_error_body": "Videodatei konnte nicht gespeichert werden.",
       "recording_started_title": "Aufnahme gestartet",
-      "recording_started_body": "Screenshot-Tastenkombination erneut drücken zum beenden.",
+      "recording_started_body": "Screenshot-Tastenkombination erneut drücken zum Beenden.",
       "screenshot_saved_title": "Screenshot gespeichert",
       "screenshot_saved_body": "Datei: {file}\nOrdner: {folder}"
     }
@@ -932,7 +932,7 @@
     "title": "Serpantinum",
     "made_by": "Erstellt von @{author}",
     "welcome": "Willkommen",
-    "tagline": "Eine desktop-shell, gemacht für",
+    "tagline": "Eine Desktop-Shell, gemacht für",
     "you": "dich",
     "start_preview": "Vorschau starten"
   },
@@ -959,14 +959,14 @@
       "charging": "Lädt",
       "charging_time": "Lädt • {hours} Std. {mins} Min.",
       "discharging": "Entlädt",
-      "left_time": "Noch {hours} std. {mins} Min.",
+      "left_time": "Noch {hours} Std. {mins} Min.",
       "until_full": "bis voll",
       "remaining": "verbleibend"
     },
     "actions": {
       "system_name": "System",
       "hibernate_error_title": "Ruhezustand nicht verfügbar",
-      "hibernate_error_body": "Ruhezustand ist auf diesem System nicht verfügbar. Bitte swap-Konfiguration prüfen."
+      "hibernate_error_body": "Ruhezustand ist auf diesem System nicht verfügbar. Bitte Swap-Konfiguration prüfen."
     }
   },
   "volumepopup": {
@@ -1099,7 +1099,7 @@
       "user": "Benutzer",
       "usage": "Auslastung",
       "battery": "Akku",
-      "github": "Github",
+      "github": "GitHub",
       "time": "Zeit"
     },
     "variants": {
@@ -1157,12 +1157,12 @@
   },
   "cli": {
     "usage": "Verwendung: serpantinum [befehl] [optionen...]",
-    "description": "Eine Desktop-Shell für Wayland-Compositor.",
+    "description": "Eine Desktop-Shell für Wayland-Compositoren.",
     "commands": "Befehle:",
     "script_commands": "Skript-Befehle:",
     "launch_desc": "Eigenständige Komponenten starten (start, widgetredactor)",
     "msg_desc": "Befehle oder Arbeitsflächenwechsel an den UI-Manager senden",
-    "ipc_desc": "IPC-aufrufe direkt an die Shell weiterleiten",
+    "ipc_desc": "IPC-Aufrufe direkt an die Shell weiterleiten",
     "kill_desc": "Laufenden Daemon sauber beenden",
     "options": "Optionen:",
     "verbose_desc": "Ausführliche Protokollausgabe aktivieren",
@@ -1170,7 +1170,7 @@
     "help_desc": "Diese Hilfemeldung anzeigen und beenden",
     "examples": "Beispiele:",
     "daemon_stopped": "Serpantinum-Daemon beendet.",
-    "starting_daemon": "Daemon läuft nicht. Serpantinumd wird im Hintergrund gestartet...",
+    "starting_daemon": "Daemon läuft nicht. serpantinumd wird im Hintergrund gestartet...",
     "error_missing_qml": "Fehler: Fehlendes Startziel.",
     "launch_usage": "Verwendung: serpantinum launch <start|widgetredactor> [argumente...]",
     "error_qml_not_found": "Fehler: {NAME}.qml in {DIR} konnte nicht aufgelöst werden",
@@ -1179,7 +1179,7 @@
     "error_unknown_target": "Fehler: Unbekanntes Ziel '{TARGET}'.",
     "launch_help": {
       "usage": "Verwendung: serpantinum launch <start|widgetredactor> [argumente...]",
-      "description": "Eigenständige Komponenten direkt im runner-modus ausführen.",
+      "description": "Eigenständige Komponenten direkt im Runner-modus ausführen.",
       "available_targets": "Verfügbare Ziele:",
       "target_start": "Start-Einrichtungsoberfläche öffnen",
       "target_widgetredactor": "Desktop-Widget-Editor öffnen"
@@ -1187,15 +1187,15 @@
     "msg_help": {
       "usage": "Verwendung: serpantinum msg <befehl|arbeitsfläche> [argumente...]",
       "description": "Layout-, Arbeitsflächen- und Fenstermanagement-Nachrichten direkt senden.",
-      "available_commands": "Verfügbare befehle:",
+      "available_commands": "Verfügbare Befehle:",
       "cmd_workspace": "Zu Arbeitsfläche <num> wechseln ('move' anhängen, um aktives Fenster zu verschieben)",
       "cmd_open": "Verwaltetes UI-Panel öffnen (network, guide, wallpaper, applauncher)",
       "cmd_toggle": "Verwaltetes UI-Panel umschalten",
-      "cmd_close": "Aktives shell-overlay schließen"
+      "cmd_close": "Aktives Shell-Overlay schließen"
     },
     "ipc_help": {
       "usage": "Verwendung: serpantinum ipc call <ziel> <methode> [argumente...]",
-      "description": "IPC-aufruf direkt an die laufende Quickshell-Instanz senden."
+      "description": "IPC-Aufruf direkt an die laufende Quickshell-Instanz senden."
     },
     "scripts": {
       "exit": "Grafische Sitzung beenden und Compositor verlassen",
@@ -1219,9 +1219,9 @@
     "launching": "Serpantinum-Daemon wird gestartet...",
     "cli": {
       "usage": "Verwendung: serpantinumd <befehl> [optionen...]",
-      "description": "Hintergrund-Daemon für die serpantinum desktop-shell.",
+      "description": "Hintergrund-Daemon für die Serpantinum Desktop-Shell.",
       "commands": "Befehle:",
-      "cmd_start": "Daemon-dienst starten und Hintergrundprozesse ausführen",
+      "cmd_start": "Daemon-Dienst starten und Hintergrundprozesse ausführen",
       "cmd_stop": "Laufenden Daemon-Dienst stoppen",
       "cmd_status": "Status des Daemon-Dienstes prüfen",
       "options": "Optionen:",
@@ -1245,10 +1245,10 @@
     },
     "os": {
       "error_root": "Fehler: Dieses Skript nicht direkt als root/sudo ausführen. Als normaler Benutzer starten.",
-      "error_unsupported": "Nicht unterstütztes Betriebssystem ({os}). Serpantinum unterstützt ausschließlich Arch linux und Derivate.",
+      "error_unsupported": "Nicht unterstütztes Betriebssystem ({os}). Serpantinum unterstützt ausschließlich Arch Linux und Derivate.",
       "error_not_found": "Betriebssystem konnte nicht erkannt werden. /etc/os-release nicht gefunden.",
       "unknown_cpu": "Unbekannte CPU",
-      "unknown_gpu": "Unbekannt / virtuelle maschine",
+      "unknown_gpu": "Unbekannt / virtuelle Maschine",
       "default_os": "Arch Linux"
     },
     "ui": {
@@ -1265,22 +1265,22 @@
       "donate": "Spenden:",
       "donate_sub": "(Projekt unterstützen!)",
       "packages_prompt": " Pakete > ",
-      "packages_header": " Esc oder Enter drücken zum zurückkehren ",
+      "packages_header": " Esc oder Enter drücken zum Zurückkehren ",
       "package_missing": "{pkg} (fehlt – wird installiert)",
       "package_installed": "{pkg} (installiert)",
       "compositors_title": "=== Ziel-Compositor auswählen ===",
       "installed": " (installiert)",
       "not_installed": " (nicht installiert)",
       "done": "Fertig",
-      "compositors_prompt": " Compositor-setup > ",
-      "compositors_header": " Unterstützte Compositor umschalten, dann fertig wählen ",
+      "compositors_prompt": " Compositor-Setup > ",
+      "compositors_header": " Unterstützte Compositoren umschalten, dann Fertig wählen ",
       "sddm_title": "=== Display-Manager-Setup (SDDM) ===",
       "sddm_detected_active": "Aktiver/aktivierter Display-Manager erkannt: {dm}",
       "sddm_detected_none": "Aktiver/aktivierter Display-Manager erkannt: Keiner",
-      "sddm_opt_install": "SDDM installieren und konfigurieren (material you design)",
+      "sddm_opt_install": "SDDM installieren und konfigurieren (Material-You-Design)",
       "sddm_opt_disable": "'{dm}' deaktivieren und entfernen",
       "sddm_opt_wayland": "Wayland-Backend erzwingen",
-      "sddm_prompt": " SDDM-setup > ",
+      "sddm_prompt": " SDDM-Setup > ",
       "sddm_header": " Optionen wählen, dann Fertig drücken ",
       "target_compositor_none": "Ziel-Compositor [erforderlich – keiner ausgewählt]",
       "target_compositor_selected": "Ziel-Compositor [{comps}]",
@@ -1288,7 +1288,7 @@
       "target_compositor_label": "Ziel-Compositor ({comps})",
       "unsupported_compositor": "Nicht unterstützter Compositor",
       "menu_overview": "Paketinstallations-Übersicht ({count} Kernpakete)",
-      "menu_sddm": "SDDM-login-manager",
+      "menu_sddm": "SDDM-Login-Manager",
       "menu_wallpapers": "Hintergrundbild-Paket",
       "menu_telemetry": "Anonyme Telemetrie",
       "menu_update": "Aktualisieren",
@@ -1298,18 +1298,18 @@
       "main_menu_prompt": " Hauptmenü > ",
       "main_menu_header": " Pfeiltasten zur Navigation, Enter zur Auswahl ",
       "error_no_compositor": "Sie müssen mindestens einen unterstützten Compositor auswählen, bevor Sie fortfahren können.",
-      "tagline": "Eine desktop-shell, gemacht für dich",
+      "tagline": "Eine Desktop-Shell, gemacht für dich",
       "support_creator": "Entwickler unterstützen:",
       "buy_coffee": "Wenn dir dieses Projekt gefällt, spendiere mir gerne einen Kaffee!",
       "installed_success": "✔ Serpantinum {ver} ({commit}) erfolgreich installiert.",
       "failed_packages": "Bei den folgenden Paketen sind während der Installation Fehler aufgetreten:",
       "restart_prompt": "Compositor neu starten oder 'serpantinumd start' ausführen, um zu beginnen.",
-      "ask_reboot": "Möchten sie jetzt neu starten? [y/n] "
+      "ask_reboot": "Möchten Sie jetzt neu starten? [y/n] "
     },
     "deps": {
-      "syncing": "Systempakete werden synchronisiert und aktualisiert (pacman -syyu)...",
+      "syncing": "Systempakete werden synchronisiert und aktualisiert (pacman -Syyu)...",
       "all_installed": "-> Alle Pakete sind bereits installiert! Paket-Download übersprungen.",
-      "missing_count": "-> {count} fehlende Pakete zur installation gefunden.",
+      "missing_count": "-> {count} fehlende Pakete zur Installation gefunden.",
       "installing_title": "Systempakete und Abhängigkeiten werden installiert...",
       "installing_pkg": "{pkg} wird installiert...",
       "install_ok": "{pkg} erfolgreich installiert",
