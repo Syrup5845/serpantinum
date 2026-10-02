@@ -638,7 +638,7 @@
       },
       "timeout": {
         "title": "Verzögerung beim automatischen Ausblenden",
-        "desc": "Dauer vor dem ausblenden, nachdem der Zeiger den Bereich verlässt"
+        "desc": "Dauer vor dem Ausblenden, nachdem der Zeiger den Bereich verlässt"
       },
       "floating": {
         "title": "Schwebendes Dock",
@@ -1179,7 +1179,7 @@
     "error_unknown_target": "Fehler: Unbekanntes Ziel '{TARGET}'.",
     "launch_help": {
       "usage": "Verwendung: serpantinum launch <start|widgetredactor> [argumente...]",
-      "description": "Eigenständige Komponenten direkt im Runner-modus ausführen.",
+      "description": "Eigenständige Komponenten direkt im Runner-Modus ausführen.",
       "available_targets": "Verfügbare Ziele:",
       "target_start": "Start-Einrichtungsoberfläche öffnen",
       "target_widgetredactor": "Desktop-Widget-Editor öffnen"
