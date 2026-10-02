@@ -372,7 +372,7 @@ QtObject {
         "weather": {
             name: I18n.t("widgets.types.weather"),
             icon: String.fromCodePoint(0xF0590),
-            iconOffsetX: -4,
+            iconOffsetX: 0,
             defaultWidth: 250,
             defaultHeight: 120,
             defaultVariant: "compact",

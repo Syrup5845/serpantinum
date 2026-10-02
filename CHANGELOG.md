@@ -1,3 +1,44 @@
+### 2.2.4
+
+- feat(bar): add configurable visualizer widget
+- fix(bar): fix spacing and overlay of grouped modules in sidebar
+- chore: remove a comment
+- style: change the theme icon in the desktopmenu
+- refactor: migrate bar modules to face-based BarModule with central registry
+- fix: fix the icon alignment in the sidetopwidget
+- fix: fix icon alignment for widgets
+- fix: add a global iconfont to fix icon discrepancy
+- refactor: reorginize widget faces into specific folders
+- perf/fix: fixes #350, redisign of the sysmon widget
+- perf: remove a continous wave animation from the system usage card to improve performance. Animate only on change
+- fix: scale wallpaper and lock screen sourceSize by devicePixelRatio (#351)
+- chore: update the lockfile
+- feat: add a lockscreen icon button to the desktop menu when clicked on desktop
+- chore: remove a console log of the search indexes in the guidepopup
+- fix: remove duplication by ensuring DEduplication in the setting row in the search bar in the guide popup
+- fix/feat: fix a misalignment of the corner, fixes #349, add an animation for the hidden -> collapsed state for the floating bar, add animation for moving across the same side of the screen on cursor position change
+- style: add a shadow to the seek bar handle
+- style: improve the wavy seek bar style by decreasing the peaks and smoothing out the curves
+- fix: fix the alignment drift in the music face widget and make sure all of the elements are equally spaced out for readability and style
+- fix: whenever Input would loose focus, launcher and clipboard would loose arrow and mouse control. Add focus regaining mechanism and fix the input.qml
+- fix: prevent lyrics view from a long scroll animation on creation
+- style: improve the visuals of the wavyseekbar in the musicpopup and musicface widget
+- perf: optimize the current focus script
+- style: change the highlight selection in the redactor a sine-wave shape
+- feat: make widgets on the desktop have a selection highlight when using the desktopmenu to select them
+- style: add hover and click effects for batwidget and sidebatwidget
+- fix: fix redundant flag in the equalizer
+- feat: add osd and notifications into the search
+- fix: fix themetab elements collapsing into a column
+- fix: fix equalizer not executing
+- fix: #348. Remove the wave animation from the battery to prevent power drain
+- feat: add the idle tab to the search
+- style: add a shadow to the clock minimal widget
+- fix: force focus on the input when the search is open in the settings
+- fix: fixes #346 when input takes focus
+- feat: add barmodulestab modules to the search
+- i18n: add missing translation for the search in the guidepopup
+
 ### 2.2.3
 
 - feat: add arrow navigation to the guidepopup search

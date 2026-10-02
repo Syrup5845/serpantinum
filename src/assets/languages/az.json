@@ -384,6 +384,51 @@
           "title": "Stil",
           "desc": "Saat və tarix ekranının vizual stilini seçin"
         }
+      },
+      "vis": {
+        "bars": {
+          "title": "Zolaqların sayı",
+          "desc": "Göstəriləcək tezlik zolaqlarının sayı"
+        },
+        "alignment": {
+          "title": "Düzləndirmə",
+          "desc": "Vizualizatoru mərkəzə, yuxarı və ya aşağı düzləndirin"
+        },
+        "align": {
+          "center": "Mərkəz",
+          "top": "Yuxarı",
+          "bottom": "Aşağı",
+          "left": "Sol",
+          "right": "Sağ"
+        },
+        "continuous": {
+          "title": "Davamlı dalğa",
+          "desc": "Ayrı-ayrı zolaqlar əvəzinə hamar dalğa göstərin"
+        }
+      },
+      "sysmon": {
+        "style": {
+          "title": "Dairə tərzi",
+          "desc": "Gedişat dairələrinin görünüşü",
+          "wave": "Dalğa",
+          "circle": "Dairə"
+        },
+        "cpu": {
+          "title": "CPU istifadəsi",
+          "desc": "Prosessor istifadəsi halqasını göstər"
+        },
+        "ram": {
+          "title": "Yaddaş istifadəsi",
+          "desc": "Operativ yaddaş (RAM) halqasını göstər"
+        },
+        "temp": {
+          "title": "Temperatur",
+          "desc": "Sistem temperaturu halqasını göstər"
+        },
+        "disk": {
+          "title": "Disk istifadəsi",
+          "desc": "Yaddaş diski istifadəsi halqasını göstər"
+        }
       }
     },
     "theme": {
@@ -691,7 +736,9 @@
     "placeholder": "Əmr üçün > ilə başlayın...",
     "tab_applications": "Tətbiqlər",
     "tab_files": "Fayllar",
-    "placeholder_files": "Faylları axtarın və ya yol daxil edin..."
+    "placeholder_files": "Faylları axtarın və ya yol daxil edin...",
+    "tab_emojis": "Emojilər",
+    "placeholder_emojis": "Emojiləri axtarın və ya açar söz daxil edin..."
   },
   "calendar": {
     "loading": "Yüklənir...",

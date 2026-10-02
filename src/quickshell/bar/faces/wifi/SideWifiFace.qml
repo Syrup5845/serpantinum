@@ -240,7 +240,7 @@ Item {
         }
     }
 
-    property real targetHeight: wifiBtn.height + (barWindow ? barWindow.s(root.isCompact ? 4 : 6) : (root.isCompact ? 4 : 6))
+    property real targetHeight: wifiBtn.height + (barWindow ? barWindow.s(root.isCompact ? 8 : 10) : (root.isCompact ? 8 : 10))
     property bool isFaceVisible: showLayout && targetHeight > 0
 
     implicitHeight: targetHeight

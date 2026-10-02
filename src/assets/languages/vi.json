@@ -386,6 +386,51 @@
           "title": "Kiểu",
           "desc": "Chọn kiểu hiển thị cho đồng hồ và ngày"
         }
+      },
+      "vis": {
+        "bars": {
+          "title": "Số lượng thanh",
+          "desc": "Số lượng thanh tần số hiển thị"
+        },
+        "alignment": {
+          "title": "Căn chỉnh",
+          "desc": "Căn giữa bộ trực quan hoặc căn theo phía trên hoặc dưới"
+        },
+        "align": {
+          "center": "Giữa",
+          "top": "Trên",
+          "bottom": "Dưới",
+          "left": "Trái",
+          "right": "Phải"
+        },
+        "continuous": {
+          "title": "Sóng liên tục",
+          "desc": "Hiển thị dạng sóng mượt mà thay vì các thanh riêng biệt"
+        }
+      },
+      "sysmon": {
+        "style": {
+          "title": "Kiểu vòng tròn",
+          "desc": "Giao diện vòng tiến trình",
+          "wave": "Sóng",
+          "circle": "Vòng tròn"
+        },
+        "cpu": {
+          "title": "Sử dụng CPU",
+          "desc": "Hiển thị vòng mức sử dụng bộ vi xử lý"
+        },
+        "ram": {
+          "title": "Sử dụng bộ nhớ",
+          "desc": "Hiển thị vòng mức sử dụng RAM"
+        },
+        "temp": {
+          "title": "Nhiệt độ",
+          "desc": "Hiển thị vòng nhiệt độ hệ thống"
+        },
+        "disk": {
+          "title": "Sử dụng ổ đĩa",
+          "desc": "Hiển thị vòng mức sử dụng bộ nhớ lưu trữ"
+        }
       }
     },
     "theme": {
@@ -697,7 +742,9 @@
     "placeholder": "Bắt đầu bằng dấu > để nhập lệnh...",
     "tab_applications": "Ứng dụng",
     "tab_files": "Tệp",
-    "placeholder_files": "Tìm kiếm tệp hoặc nhập đường dẫn..."
+    "placeholder_files": "Tìm kiếm tệp hoặc nhập đường dẫn...",
+    "tab_emojis": "Biểu tượng cảm xúc",
+    "placeholder_emojis": "Tìm kiếm biểu tượng cảm xúc hoặc nhập từ khóa..."
   },
   "calendar": {
     "loading": "Đang tải...",

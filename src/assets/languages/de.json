@@ -387,6 +387,51 @@
           "title": "Stil",
           "desc": "Wählen Sie das visuelle Design für die Uhrzeit- und Datumsanzeige"
         }
+      },
+      "vis": {
+        "bars": {
+          "title": "Anzahl der Balken",
+          "desc": "Anzahl der anzuzeigenden Frequenzbalken"
+        },
+        "alignment": {
+          "title": "Ausrichtung",
+          "desc": "Visualisierer zentrieren oder oben bzw. unten ausrichten"
+        },
+        "align": {
+          "center": "Zentriert",
+          "top": "Oben",
+          "bottom": "Unten",
+          "left": "Links",
+          "right": "Rechts"
+        },
+        "continuous": {
+          "title": "Kontinuierliche Welle",
+          "desc": "Eine fließende Welle anstelle einzelner Balken darstellen"
+        }
+      },
+      "sysmon": {
+        "style": {
+          "title": "Kreis-Stil",
+          "desc": "Erscheinungsbild der Fortschrittsringe",
+          "wave": "Welle",
+          "circle": "Kreis"
+        },
+        "cpu": {
+          "title": "CPU-Auslastung",
+          "desc": "Ring für Prozessorauslastung anzeigen"
+        },
+        "ram": {
+          "title": "Speichernutzung",
+          "desc": "Ring für Arbeitsspeichernutzung anzeigen"
+        },
+        "temp": {
+          "title": "Temperatur",
+          "desc": "Ring für Systemtemperatur anzeigen"
+        },
+        "disk": {
+          "title": "Datenträgerauslastung",
+          "desc": "Ring für Festplattennutzung anzeigen"
+        }
       }
     },
     "theme": {
@@ -741,7 +786,9 @@
     "placeholder": "Mit > beginnen für Befehle...",
     "tab_applications": "Anwendungen",
     "tab_files": "Dateien",
-    "placeholder_files": "Dateien suchen oder Pfad eingeben..."
+    "placeholder_files": "Dateien suchen oder Pfad eingeben...",
+    "tab_emojis": "Emojis",
+    "placeholder_emojis": "Emojis suchen oder Stichwort eingeben..."
   },
   "calendar": {
     "loading": "Laden...",
