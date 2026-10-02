@@ -100,7 +100,7 @@
       },
       "empty_graphic": {
         "title": "Animation für leere Benachrichtigungen",
-        "desc": "Zeigt die schlafende katze im benachrichtigungszentrum an, wenn keine vorhanden sind"
+        "desc": "Zeigt die schlafende Katze im Benachrichtigungszentrum an, wenn keine vorhanden sind"
       },
       "test": "Benachrichtigung testen",
       "test_desc": "Dies ist eine Testbenachrichtigung"
@@ -108,48 +108,48 @@
     "idle": {
       "enabled": {
         "title": "Inaktivitätssystem aktivieren",
-        "desc": "Energieverwaltung und sperr-timeouts aktivieren"
+        "desc": "Energieverwaltung und Sperr-Timeouts aktivieren"
       },
       "manual_inhibit": {
         "title": "Nicht stören (wachhalten)",
-        "desc": "Übergang in den ruhezustand manuell verhindern"
+        "desc": "Übergang in den Ruhezustand manuell verhindern"
       },
       "mpris_inhibit": {
-        "title": "Bei medienwiedergabe blockieren",
-        "desc": "Inaktivitätsaktionen während der medienwiedergabe verhindern"
+        "title": "Bei Medienwiedergabe blockieren",
+        "desc": "Inaktivitätsaktionen während der Medienwiedergabe verhindern"
       },
       "respect_inhibitors": {
-        "title": "App-inhibitoren beachten",
-        "desc": "Wayland-inaktivitätssperren von anwendungen berücksichtigen"
+        "title": "App-Inhibitoren beachten",
+        "desc": "Wayland-Inaktivitätssperren von Anwendungen berücksichtigen"
       },
-      "pipeline_notice": "Reihenfolge: Bildschirm abdunkeln < sitzung sperren < bildschirm aus < bereitschaft. Aktionen, die diese reihenfolge verletzen, werden ausgeschlossen.",
+      "pipeline_notice": "Reihenfolge: Bildschirm abdunkeln < Sitzung sperren < Bildschirm aus < Bereitschaft. Aktionen, die diese Reihenfolge verletzen, werden ausgeschlossen.",
       "order_violation": "Ausgeschlossen",
       "actions_header": {
-        "title": "Inaktivitäts-timeout-objekte",
-        "desc": "Timeouts, integrierte trigger und eigene befehle konfigurieren"
+        "title": "Inaktivitäts-Timeout-Objekte",
+        "desc": "Timeouts, integrierte Trigger und eigene Befehle konfigurieren"
       },
       "action_name_placeholder": "Aktionsname",
-      "command_placeholder": "Auszuführender befehl",
-      "custom_action_default": "Benutzerdefinierte inaktivitätsaktion",
+      "command_placeholder": "Auszuführender Befehl",
+      "custom_action_default": "Benutzerdefinierte Inaktivitätsaktion",
       "custom_action_fallback": "Inaktivitätsaktion",
       "warning_command": {
         "title": "Warnbefehl",
-        "desc": "Vorlaufzeit und befehl vor aktionsausführung",
-        "placeholder": "z. B. notify-send 'warnung'"
+        "desc": "Vorlaufzeit und Befehl vor Aktionsausführung",
+        "placeholder": "z. B. notify-send 'Warnung'"
       },
       "before_command": {
         "title": "Befehl davor",
-        "desc": "Wird unmittelbar vor der aktion ausgeführt",
+        "desc": "Wird unmittelbar vor der Aktion ausgeführt",
         "placeholder": "z. B. playerctl pause"
       },
       "resume_command": {
-        "title": "Befehl bei reaktivierung",
-        "desc": "Wird bei erneuter benutzeraktivität ausgeführt",
+        "title": "Befehl bei Reaktivierung",
+        "desc": "Wird bei erneuter Benutzeraktivität ausgeführt",
         "placeholder": "z. B. notify-send 'fortgesetzt'"
       },
       "dim": {
         "title": "Bildschirm abdunkeln",
-        "desc": "Bildschirmhelligkeit vor dem Sperren reduzieren"
+        "desc": "Bildschirmhelligkeit vor dem sperren reduzieren"
       },
       "dpms": {
         "title": "Bildschirm aus (DPMS)",
@@ -160,7 +160,7 @@
         "desc": "Sitzung nach einer Phase der Inaktivität sperren"
       },
       "suspend": {
-        "title": "System-bereitschaft",
+        "title": "System-Bereitschaft",
         "desc": "System in den Bereitschaftsmodus versetzen"
       },
       "hooks": {
@@ -171,22 +171,22 @@
     "welcome": {
       "by_author": "von @{author}",
       "about": "Über",
-      "hold_for_tutorial": "Für tutorial gedrückt halten",
+      "hold_for_tutorial": "Für Tutorial gedrückt halten",
       "start_tutorial": "Tutorial starten"
     },
     "tutorial": {
       "section_title": "Tutorial: {section}",
-      "default_desc": "Klicken, um das tutorial zu starten",
+      "default_desc": "Klicken, um das Tutorial zu starten",
       "start": "Starten"
     },
     "general": {
       "language": {
         "title": "Sprache",
-        "desc": "Sprache der benutzeroberfläche auswählen"
+        "desc": "Sprache der Benutzeroberfläche auswählen"
       },
       "uiscale": {
-        "title": "UI-skalierung",
-        "desc": "Gesamten skalierungsfaktor der oberfläche festlegen"
+        "title": "UI-Skalierung",
+        "desc": "Gesamten Skalierungsfaktor der Oberfläche festlegen"
       },
       "avatar": {
         "title": "Profilbild",
@@ -196,15 +196,15 @@
       },
       "mutesfx": {
         "title": "Soundeffekte stummschalten",
-        "desc": "Töne der benutzeroberfläche deaktivieren"
+        "desc": "Töne der Benutzeroberfläche deaktivieren"
       },
       "sfxvolume": {
-        "title": "Lautstärke der soundeffekte anpassen",
-        "desc": "Beeinflusst nicht die audioausgabe des systems"
+        "title": "Lautstärke der Soundeffekte anpassen",
+        "desc": "Beeinflusst nicht die Audioausgabe des Systems"
       },
       "quickactions": {
         "title": "Schnellaktionen",
-        "desc": "Schwebendes schnellaktions-overlay aktivieren"
+        "desc": "Schwebendes Schnellaktions-Overlay aktivieren"
       },
       "location": {
         "title": "Standort",
